@@ -4,9 +4,9 @@
 ## Date: 12 Nov 2020 
 ##
 ## Example usage:
-## bamOrder=/Shares/CL_Shared/data/atma/cohen2017_chip/mybams.txt 
-## bed=/Shares/CL_Shared/data/atma/cohen2017_chip/ALL_peaks.narrowPeak 
-## outDir=/Shares/CL_Shared/data/atma/cohen2017_chip/bamCounts 
+## bamOrder=/Shares/CL_Shared/data/atma/cohen2017_chip/bamOrder.txt \
+## bed=/Shares/CL_Shared/data/atma/cohen2017_chip/ALL_peaks.narrowPeak \ 
+## outDir=/Shares/CL_Shared/data/atma/cohen2017_chip/bamCounts \
 ## sbatch computeBamCountTable.q
 ## 
 ## Note:
