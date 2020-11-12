@@ -34,6 +34,6 @@ samtools sort ${inDir}/${queries[$SLURM_ARRAY_TASK_ID]} -o ${inDir}/${queries[$S
 
 echo $(date +"[%b %d %H:%M:%S] Indexing bam file...")
 
-samtools index ${inDir}/${queries[$SLURM_ARRAY_TASK_ID]%.bam}.sorted
+samtools index ${inDir}/${queries[$SLURM_ARRAY_TASK_ID]}.sorted
 
 echo $(date +"[%b %d %H:%M:%S] Done!")
