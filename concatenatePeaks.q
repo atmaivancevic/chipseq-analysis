@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Script for merging peaks from all samples in a batch
+## Script for concatenating and merging peaks from all samples in a batch
 ## Date: 12 Nov 2020 
 ##
 ## Example usage:
