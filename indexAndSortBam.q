@@ -4,7 +4,7 @@
 ## Date: 12 Nov 2020 
 ##
 ## Example usage:
-## inDir=/Shares/CL_Shared/data/atma/cohen2017_chip/bams sbatch --array 0-42 indexBam.q
+## inDir=/Shares/CL_Shared/data/atma/cohen2017_chip/bams sbatch --array 0-42 indexAndSortBam.q
 
 # General settings
 #SBATCH -p short
