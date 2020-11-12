@@ -30,10 +30,10 @@ pwd; hostname; date
 echo "Processing file: "${queries[$SLURM_ARRAY_TASK_ID]}
 echo $(date +"[%b %d %H:%M:%S] Sorting bam file...")
 
-samtools sort ${inDir}/${queries[$SLURM_ARRAY_TASK_ID]} -o ${inDir}/${queries[$SLURM_ARRAY_TASK_ID]%.bam}_sorted.bam
+samtools sort ${inDir}/${queries[$SLURM_ARRAY_TASK_ID]} -o ${inDir}/${queries[$SLURM_ARRAY_TASK_ID]}.sorted
 
 echo $(date +"[%b %d %H:%M:%S] Indexing bam file...")
 
-samtools index ${inDir}/${queries[$SLURM_ARRAY_TASK_ID]%.bam}_sorted.bam
+samtools index ${inDir}/${queries[$SLURM_ARRAY_TASK_ID]%.bam}.sorted
 
 echo $(date +"[%b %d %H:%M:%S] Done!")
