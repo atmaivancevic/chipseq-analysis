@@ -4,7 +4,7 @@
 ## Date: 12 Nov 2020 
 ##
 ## Example usage:
-## bamOrder=/Shares/CL_Shared/data/atma/cohen2017_chip/mybams.txt bed=/Shares/CL_Shared/data/atma/cohen2017_chip/ALL_peaks.narrowPeak outDir=/Users/CL_Shared/data/atma/cohen2017_chip sbatch computeBamCountTable.q
+## bamOrder=/Shares/CL_Shared/data/atma/cohen2017_chip/mybams.txt bed=/Shares/CL_Shared/data/atma/cohen2017_chip/ALL_peaks.narrowPeak outDir=/Shares/CL_Shared/data/atma/cohen2017_chip/bamCounts sbatch computeBamCountTable.q
 ## 
 ## Note:
 ## bamOrder is a text file containing the full path and file names of all the bams, in the order they should appear as columns in the table
