@@ -14,7 +14,7 @@
 ## You need to create the bamOrder file before running this script
 ## And you must include the full path to the bamOrder file, as shown above
 ## 
-## Here's what the inside of a bamOrder file should look like:
+## Here's what the inside of a bamOrder file could look like:
 ## /Shares/CL_Shared/data/atma/cohen2017_chip/file1.bam.sorted
 ## /Shares/CL_Shared/data/atma/cohen2017_chip/file2.bam.sorted
 ## /Shares/CL_Shared/data/atma/cohen2017_chip/file3.bam.sorted
